@@ -46,6 +46,8 @@ export default {
                     {
                         name: this.data.series.name,
                         type: 'pie',
+                        selectedMode: 'single',
+                        selectedOffset: 10,
                         radius : ['40%', '50%'],
                         center: ['50%', '50%'],
                         data: this.data.series.data,
